@@ -3,9 +3,9 @@
 <package format="3">
   <name>argus_command_bridge</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="gabe.susman@gmail.com">ubuntu</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Argus Command Bridge is a lightweight ROS 2 package that provides a secure gateway for tele-operating Argus Bot from anywhere.</description>
+  <maintainer email="gabe.susman@gmail.com">Gabe Susman</maintainer>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
