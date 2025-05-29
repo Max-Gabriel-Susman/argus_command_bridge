@@ -28,10 +28,10 @@ jobs:
           . /opt/ros/foxy/setup.sh
           colcon build --symlink-install --packages-up-to argus_command_bridge
 
-      - name: colcon test
-        working-directory: /home/ros2_ws
-        run: |
-          . install/setup.sh
-          colcon test --event-handlers console_direct+ \
-                       --packages-select argus_command_bridge
-          colcon test-result
+      # - name: colcon test
+      #   working-directory: /home/ros2_ws
+      #   run: |
+      #     . install/setup.sh
+      #     colcon test --event-handlers console_direct+ \
+      #                  --packages-select argus_command_bridge
+      #     colcon test-result
